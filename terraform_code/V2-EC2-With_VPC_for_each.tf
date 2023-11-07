@@ -1,11 +1,11 @@
 provider "aws" {
-    region = "us-east-1"
+    region = "us-west-2"
 }
 
 resource "aws_instance" "demo-server" {
-    ami = "ami-0fc5d935ebf8bc3bc"
+    ami = "ami-0efcece6bed30fd98"
     instance_type = "t2.micro"
-    key_name = "dpp"
+    key_name = "titokey"
     vpc_security_group_ids = [aws_security_group.demo-sg.id]
     subnet_id = aws_subnet.dpp-public-subnet-01.id
     for_each = toset(["jenkins-master", "build-slave","ansible"])
@@ -20,9 +20,17 @@ resource "aws_security_group" "demo-sg" {
     vpc_id = aws_vpc.dpp-vpc.id
 
     ingress {
-    description = "Jenkins port"
+    description = "SSH Access"
     from_port = 22
     to_port = 22
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+}
+
+   ingress {
+    description = "Jenkins port"
+    from_port = 8080
+    to_port = 8080
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
 }
@@ -34,6 +42,7 @@ egress {
     cidr_blocks = [ "0.0.0.0/0"]
     ipv6_cidr_blocks = ["::/0"]
 }
+
 
 tags = {
   Name = "ssh-prot"
@@ -50,8 +59,8 @@ resource "aws_vpc" "dpp-vpc" {
 resource "aws_subnet" "dpp-public-subnet-01" {
     vpc_id = aws_vpc.dpp-vpc.id
     cidr_block = "10.1.1.0/24"
-    map_public_ip_on_launch = true
-    availability_zone = "us-east-1a"
+    map_public_ip_on_launch = "true"
+    availability_zone = "us-west-2a"
     tags = {
       Name = "dpp-public-subnet-01"
     }
@@ -60,8 +69,8 @@ resource "aws_subnet" "dpp-public-subnet-01" {
 resource "aws_subnet" "dpp-public-subnet-02" {
     vpc_id = aws_vpc.dpp-vpc.id
     cidr_block = "10.1.2.0/24"
-    map_public_ip_on_launch = true
-    availability_zone = "us-east-1b"
+    map_public_ip_on_launch = "true"
+    availability_zone = "us-west-2b"
     tags = {
         Name = "dpp-public-subnet-02"
     }
