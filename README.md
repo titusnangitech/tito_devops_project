@@ -1,6 +1,6 @@
 # tito_devops_project
 
-A comprehensive CI/CD pipeline using various DevOps tools
+A comprehensive CI/CD pipeline using various DevOps tools \n
 Setting up Terraform to facilitate infrastructure provisioning.
 
 Using Terraform to provision Jenkins master, build nodes, and Ansible.
@@ -33,12 +33,4 @@ Storing Docker images on Artifactory.
 
 Utilizing Terraform to provision a Kubernetes cluster.
 
-Creating Kubernetes objects.
 
-Deploying Kubernetes objects using Helm.
-
-Setting up Prometheus and Grafana using Helm charts.
-
-Monitoring the Kubernetes cluster using Prometheus.
-
-Monitoring the Kubernetes cluster using Prometheus.
