@@ -1,6 +1,6 @@
 # tito_devops_project
 
-***A comprehensive CI/CD pipeline using various DevOps tools***  
+**A comprehensive CI/CD pipeline using various DevOps tools** 
 Setting up Terraform to facilitate infrastructure provisioning.
 
 Using Terraform to provision Jenkins master, build nodes, and Ansible.
