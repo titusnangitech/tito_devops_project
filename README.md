@@ -2,6 +2,9 @@
 
 **A comprehensive CI/CD pipeline using various DevOps tools**
 
+![titodevopsdesign](https://github.com/titusnangitech/tito_devops_project/assets/128609800/73b4f8bd-065d-49bc-868a-1525a9fb1c17)
+
+
 Setting up Terraform to facilitate infrastructure provisioning.
 
 Using Terraform to provision Jenkins master, build nodes, and Ansible.
