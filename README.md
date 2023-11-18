@@ -1,7 +1,8 @@
 # GitHub CI/CD DevOps Pipeline
 Established a highly efficient CI/CD pipeline for GitHub repositories using a DevOps approach. Leveraged a curated set of tools including AWS, Terraform, Ansible, Jenkins, Docker, JFrog Artifactory, SonarQube, Kubernetes, and Maven.
 
-![titodevopsdesign](https://github.com/titusnangitech/tito_devops_project/assets/128609800/73b4f8bd-065d-49bc-868a-1525a9fb1c17)
+![devopscorrectOne](https://github.com/titusnangitech/tito_devops_project/assets/128609800/9aaa2d0a-732e-4d66-aaf1-11038a4f7a66)
+
 
 Key Components:
 
