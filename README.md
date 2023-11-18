@@ -8,31 +8,31 @@ Key Components:
 
 ## Infrastructure as Code (IaC) with Terraform:
 
-- Utilize Terraform to provision AWS resources, ensuring consistent and scalable infrastructure.
+- Utilized Terraform to provision AWS resources, ensuring consistent and scalable infrastructure.
 
 ## Configuration Management with Ansible:
 
-- Implement Ansible for seamless configuration of infrastructure components, including Jenkins and Ansible servers.
+- Implemented Ansible for seamless configuration of infrastructure components, including Jenkins and Ansible servers.
 
 ## Jenkins CI/CD Automation:
 
-- Develop Jenkins pipelines to automate builds, tests, and deployments, promoting efficient software delivery.
+- Developed Jenkins pipelines to automate builds, tests, and deployments, promoting efficient software delivery.
 
 ## Docker Containerization:
 
-- Implement Docker for containerization, creating lightweight, portable, and scalable application environments.
+- Implemented Docker for containerization, creating lightweight, portable, and scalable application environments.
 
 ## Artifact Management with JFrog Artifactory:
 
-- Configure JFrog Artifactory for centralized artifact storage, enabling version control and distribution.
+- Configured JFrog Artifactory for centralized artifact storage, enabling version control and distribution.
 
 ## Code Quality Assessment using SonarQube:
 
-- Integrate SonarQube for continuous code quality assessment, enforcing coding standards and identifying issues early.
+- Integrated SonarQube for continuous code quality assessment, enforcing coding standards and identifying issues early.
 
 ## Kubernetes Orchestration:
 
-- Utilize Kubernetes for container orchestration, ensuring efficient deployment and scaling of containerized applications.
+- Utilized Kubernetes for container orchestration, ensuring efficient deployment and scaling of containerized applications.
 
 ## Maven for Build Management:
 
