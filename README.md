@@ -8,15 +8,15 @@
 
 Key Components:
 
-- **Infrastructure as Code (IaC) with Terraform:**
+# Infrastructure as Code (IaC) with Terraform:**
 
 - Utilized Terraform to provision AWS resources, ensuring consistent and scalable infrastructure.
 
-- **Configuration Management with Ansible:**
+# Configuration Management with Ansible:**
 
 - Implemented Ansible for seamless configuration of infrastructure components, including Jenkins and Ansible servers.
 
-- **Jenkins CI/CD Automation:**
+# Jenkins CI/CD Automation:**
 
 - Developed Jenkins pipelines to automate builds, tests, and deployments, promoting efficient software delivery.
 
