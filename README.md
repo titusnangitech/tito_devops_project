@@ -1,7 +1,7 @@
 # CI/CD DevOps Pipeline Project
 
 
-- Established a highly efficient CI/CD pipeline for a GitHub repository using a DevOps approach. Leveraged a curated set of tools including AWS, Terraform, Ansible, Jenkins, Docker, JFrog Artifactory, SonarQube, Kubernetes, and Maven.**
+- **Established a highly efficient CI/CD pipeline for a GitHub repository using a DevOps approach. Leveraged a curated set of tools including AWS, Terraform, Ansible, Jenkins, Docker, JFrog Artifactory, SonarQube, Kubernetes, and Maven.**
 
 ![devopscorrectOne](https://github.com/titusnangitech/tito_devops_project/assets/128609800/9aaa2d0a-732e-4d66-aaf1-11038a4f7a66)
 
