@@ -1,4 +1,4 @@
-# CI/CD DevOps Pipeline Project
+# A CI/CD DevOps Pipeline Project
 
 
 - **Established a highly efficient CI/CD pipeline for a GitHub repository using a DevOps approach. Leveraged a curated set of tools including AWS, Terraform, Ansible, Jenkins, Docker, JFrog Artifactory, SonarQube, Kubernetes, and Maven.**
